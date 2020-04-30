@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>UXAI</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/simple-sidebar.css" rel="stylesheet">
+
+  <script src="https://d3js.org/d3.v4.min.js"></script>
+
+</head>
+
+<body>
+
+  <div class="d-flex" id="wrapper">
+
+    <!-- Sidebar -->
+    <div class="bg-light border-right" id="sidebar-wrapper">
+      <div class="sidebar-heading">UXAI</div>
+      <div class="list-group list-group-flush">
+        <a href="/index.html" class="list-group-item list-group-item-action active">Introduction</a>
+        <div class="list-group">
+          <a href="#overview" class="list-group-item">Overview</a>
+          <a href="#ai-industry" class="list-group-item">AI Industry</a>
+          <a href="#ai-applications" class="list-group-item">AI Applications</a>
+        </div>
+
+        <a href="explainable-ai.html" class="list-group-item list-group-item-action bg-light">Explainable AI (XAI)</a>
+
+        <a href="explanation-guide.html" class="list-group-item list-group-item-action bg-light">Explanation Guide</a>
+
+        <a href="toolkit.html" class="list-group-item list-group-item-action bg-light">Toolkit</a>
+
+        <a href="glossary.html" class="list-group-item list-group-item-action bg-light">Glossary</a>
+      </div>
+    </div>
+    <!-- /#sidebar-wrapper -->
+
+    <!-- Page Content -->
+    <div id="page-content-wrapper">
+
+      <!-- Header -->
+      <div class="container-fluid padding">
+        <div class="row text-center padding">
+          <h1 class="mt-4">Introduction</h1>
+          <h2 class="mt-4">An overview of AI</h2>
+        </div>
+      </div>
+
+      <!-- Introduction -->
+      <div class="container-fluid padding" id="overview">
+        <div class="row padding">
+          <div class="col-lg-8">
+            <h2 class="mt-4">Artificial Intelligence, Defined.</h2>
+            <p>Artificial Intelligence typically refers to human-imitative intelligence; the simulation of human thought processes in a computerized model.</p>
+          </div>
+          <div class="col-lg-4">
+            <h3 class="mt-4">Characteristics of AI</h3>
+            <ul>
+              <li>Understands</li>
+              <li>Reasons</li>
+              <li>Learns</li>
+              <li>Interacts</li>
+            </ul>
+        </div>
+        </div>
+      </div>
+
+      <!-- AI Industry -->
+      <div class="container-fluid padding" id="ai-industry">
+        <div class="row padding">
+          <div class="col-lg-8">
+            <h2 class="mt-4">AI in Industry</h2>
+            <p>With the development of AI becoming more efficient and more reliable, countries and companies are increasingly investing in AI. Autonomous vehicles, chatbots, fraud detections, AI is being applied to a wide range of industry to automate and augment productions and decision making.</p>
+          </div>
+          <div class="col-lg-4">
+            <h3 class="mt-4">$2.9 Trillion</h3>
+            <p>In 2021, artificial intelligence (AI) augmentation will create $2.9 trillion of business value</p>
+        </div>
+        </div>
+      </div>
+
+      <!-- AI Applications -->
+      <div class="container-fluid padding">
+        <div class="row padding">
+          <div class="col-lg-12">
+            <h2 class="mt-4">Business Value Forecast by AI Type</h2>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-fluid padding">
+        <div class="row padding">
+          <div class="col-lg-12" id="racing-bar-chart">
+            <div id="observablehq-a88279ce">
+              <div class="observablehq-style"></div>
+              <div class="observablehq-viewof-replay"></div>
+              <div class="observablehq-chart"></div>
+            
+            </div>
+            <script type="module">
+              import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
+              import define from "https://api.observablehq.com/@victor-grajski/worldwide-business-value-forecast-by-ai-type.js?v=3";
+              (new Runtime).module(define, name => {
+                if (name === "style") return Inspector.into("#observablehq-a88279ce .observablehq-style")();
+                if (name === "viewof replay") return Inspector.into("#observablehq-a88279ce .observablehq-viewof-replay")();
+                if (name === "chart") return Inspector.into("#observablehq-a88279ce .observablehq-chart")();
+              });
+            </script>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-fluid padding" id="ai-applications">
+        <div class="row padding">
+          <h2 class="mt-4">Common AI Decision Support Applications</h2>
+          <!-- TODO: tree viz -->
+        </div>
+      </div>
+
+      <!-- TODO: References -->
+
+      <!-- TODO: footer nav -->
+
+
+    </div>
+    <!-- /#page-content-wrapper -->
+
+  </div>
+  <!-- /#wrapper -->
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Menu Toggle Script -->
+  <!-- <script>
+    $("#menu-toggle").click(function(e) {
+      e.preventDefault();
+      $("#wrapper").toggleClass("toggled");
+    });
+  </script> -->
+
+</body>
+
+</html>
